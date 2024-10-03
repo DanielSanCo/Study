@@ -1,0 +1,32 @@
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p1Skills {
+    width: 700px;
+    height: var(--skill-area-height);
+    background-color: black;
+}
+.eachskill {
+    height: var(--skill-area-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    height: 90%;
+    cursor: pointer;
+}
+.fight {
+    height: 100px;
+    width: 700px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}

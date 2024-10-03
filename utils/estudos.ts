@@ -53,7 +53,32 @@ const estudos = [
         img: './images/git.png',
         link: '',
         categoria: ['git', 'github'],
-        tags: 'Subir projeto para o github usando o terminal do git'
+        tags: 'Subir projeto para o github usando o terminal do git, git passo a passo'
+    },
+    {
+        titulo: 'Como usar variavel com css',
+        desc: 'Ola',
+        img: './images/varCss.avif',
+        img2: './images/exRoot.png',
+        link: '',
+        categoria: ['css'],
+        tags: 'Como usar variavel com css, css variavel'
+    },
+    {
+        titulo: 'Syntax error: Selector ":root" is not pure (pure selectors must contain at least one local class or id)',
+        desc: 'Ola',
+        img: './images/rootIsNotPure.png',
+        link: '',
+        categoria: ['error', 'css'],
+        tags: 'Syntax error: Selector ":root" is not pure (pure selectors must contain at least one local class or id)'
+    },
+    {
+        titulo: 'Como adicionar itens em um array javascript',
+        desc: 'Ola',
+        img: './images/pushArray.png',
+        link: '',
+        categoria: ['javascript'],
+        tags: 'Como adicionar itens em um array javascript, colocar itens em array, array push'
     },
 ]
 

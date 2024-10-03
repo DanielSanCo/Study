@@ -39,7 +39,14 @@ export default function Home() {
               {item.tags.toLowerCase().includes(value.toLowerCase()) ?
                 <div className={styles.mapEach} key={index}>
                   <div className={styles.title}>{item.titulo}</div>
-                  <img src={item.img} alt="" className={styles.img} />
+                  <div className={styles.imgArea}>
+                    <img src={item.img} alt="" className={styles.img} />
+                    {item.img2 != '' ?
+                      <img src={item.img2} alt="" className={styles.im2} />
+                      :
+                      ''
+                    }
+                  </div>
                   {item.link != '' ?
                     <a href={item.link} target="_blank" className={styles.codigo}><div>Código</div>  </a>
                     :
