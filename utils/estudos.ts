@@ -80,6 +80,79 @@ const estudos = [
         categoria: ['javascript'],
         tags: 'Como adicionar itens em um array javascript, colocar itens em array, array push'
     },
+    {
+        titulo: 'Como fazer numero aleatorio javascript',
+        desc: 'var numeroAleatorio = Math.random() * 10',
+        img: '',
+        link: 'https://pastecode.io/s/njr2m9go',
+        categoria: ['javascript'],
+        tags: 'Como fazer numero aleatorio javascript, Como gerar numero aleatorio'
+    },
+    {
+        titulo: 'Como abrir pagina web com selenium',
+        desc: '',
+        img: '',
+        link: 'https://pastecode.io/s/unmzvxyg',
+        categoria: ['python', 'selenium'],
+        tags: 'Como abrir pagina web com selenium webdriver'
+    },
+    {
+        titulo: 'Configuração do chrome selenium',
+        desc: '',
+        img: '',
+        link: 'https://pastecode.io/s/y3x1dhtn',
+        categoria: ['python', 'selenium'],
+        tags: 'Configuração do chrome selenium, iniciar driver, configurar navegador'
+    },
+    {
+        titulo: 'Encontrar elementos com xpath',
+        desc: '',
+        img: '',
+        link: 'https://pastecode.io/s/7iuqve71',
+        categoria: ['python', 'selenium'],
+        tags: 'Encontrar elementos com xpath, encontrar elementos pelas tags, encontrar elementos com tags'
+    },
+    {
+        titulo: 'como abrir um programa nextjs por um arquivo.bat',
+        desc: '',
+        img: './images/npmRunDev.png',
+        img2: './images/npmRunDev2.png',
+        link: '',
+        categoria: ['nextjs'],
+        tags: 'como abrir um programa nextjs por um arquivo.bat, como abrir projeto next sem entrar no vscode, como criar atalho para abrir programa next, atalho next'
+    },
+    {
+        titulo: 'Pedir valor no python',
+        desc: '',
+        img: './images/pedirValue.png',
+        link: '',
+        categoria: ['python', 'pyautogui'],
+        tags: 'Pedir valor no python, como pedir numero no python, input python, input pyautogui'
+    },
+    {
+        titulo: 'Mapear array ao contrario no react',
+        desc: '',
+        img: '',
+        link: 'https://pastecode.io/s/gzgdgz9n',
+        categoria: ['python', 'pyautogui'],
+        tags: 'Mapear array ao contrario no react, map reverse react, mapear reverso react'
+    },
+    {
+        titulo: 'Tirar numeros quebrados',
+        desc: '',
+        img: '',
+        link: 'https://pastecode.io/s/3sygiy2a',
+        categoria: ['javascript', 'react'],
+        tags: 'Tirar numeros quebrados, toFixed, fixed'
+    },
+    {
+        titulo: 'Como tipar array react',
+        desc: '',
+        img: './images/typeArray.png',
+        link: '',
+        categoria: ['typescript', 'react', 'nextjs'],
+        tags: 'Como tipar array react, typescript array, type array next, type array react, type json'
+    },
 ]
 
 export default estudos;

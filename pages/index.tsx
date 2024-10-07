@@ -5,8 +5,16 @@ import styles from "@/styles/Home.module.css";
 import estudos from "@/utils/estudos";
 import { useState } from "react";
 
+const tecs = [
+  {nome: 'react', img: ''},
+  {nome: 'javascript', img: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
+  {nome: 'css', img: ''},
+  {nome: 'python', img: ''},
+]
+
 export default function Home() {
   const [value, setValue] = useState('');
+  const [tec, setTec] = useState('');
 
   const mudarTexto = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value)
@@ -22,6 +30,13 @@ export default function Home() {
       </Head>
 
       <div className={styles.header}>
+        <div className={styles.tecArea}>
+          {tecs.map((item, index) => (
+            <div className={styles.tecImg}>
+              <img src={item.img} alt="" />
+            </div>
+          ))}
+        </div>
         <div>
           <input
             type="text"
