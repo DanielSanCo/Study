@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 .fight {
-    height: 100px;
+    min-height: 100px;
     width: 700px;
     background-color: blue;
     color: white;
